@@ -1,0 +1,64 @@
+.navbar {
+  color: gray;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 20px 10px;
+  margin-bottom: 60px;
+  width: 100%;
+  }
+
+  .navbar-nav > li{
+    margin-left:20px;
+    margin-right:20px;
+  }
+
+.card {
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+margin: auto;
+padding-top: 20px;
+padding-bottom: 20px;
+float: none;
+height: 100% !important;
+border-color: black;
+}
+
+.commentBtn {
+  border-left: 1px solid black;
+  background-color: white;
+  height: 30px;
+}
+
+.commentBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.loveBtn {
+  border-left: 1px solid black;
+  background-color: white;
+  color: red;
+  height: 30px;
+  margin-left: 105px;
+}
+
+.loveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+footer {
+font-size: 14px;
+color: gray;
+text-align: center;
+padding: 40px;
+
+}
+
+@media (min-width: 992px){
+  .navbar li {
+      margin-left : 1em;
+      margin-right : 1em;
+  }
+}
